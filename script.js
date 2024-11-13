@@ -11,18 +11,13 @@ let city = document.getElementById('#city');
 
  
 
- document.getElementById("submit").addEventListener("click", function(Bonjour){
-     let nom = "";
-   while(!nom){
-       nom = prompt("Quel est votre nom");
-    }
+ 
+     let nom = prompt("Quel est votre nom");
+     let ville = prompt("Quelle est votre ville");
+    
 
-    const confirmation = confirm(`etes vous sur que  ${nom} est votre nom`);
+       alert(`Bonjour  ${nom} vous etes de ${ville}`) ;
 
-    if(confirmation){
-       alert(`Bonjour  ${nom}`) ;
-    }
- })
 
 
 
